@@ -3,6 +3,10 @@ package org.kairosdb.metrics4j;
 import java.util.Map;
 import java.util.Objects;
 
+/**
+ * A class used to uniquely identify a metric based on its name and tags.
+ * @param <T> The data type of the values associated with this metric.
+ */
 @SuppressWarnings("unused")
 public class Metric<T>
 {
